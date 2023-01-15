@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+}
+.cover_picture{
+    background: #FFF8F3;
+    background: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+
+}
+h1{
+    font-weight: 800;
+    font-size: 45px;
+}
+#red_color {
+    color: #FD6E0A;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    align-items: center; 
+   
+
+}
+nav  ul{
+    display: flex;  
+    
+    }
+    
+nav li {
+    list-style:none;
+    margin: 40px;  
+}
+ /* button color */
+.button_primary{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    color:white;
+    background-color: #FD6E0A;
+    border-radius: 6px;
+    border: 0;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 27px; */
+
+}
+/* banner */
+div{
+    margin: 0 100px;  
+}
+.banner{
+    display: flex;
+     align-items: center;
+}
+
+.first_banner{
+    color: #474747;
+    width: 177px;
+    height: 61px;
+    left: 230px;
+    top: 297px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    
+}
+.second_banner{
+  
+    width: 498px;
+    height: 116px;
+    left: 230px;
+    top: 363px;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+
+}
+.description{
+    
+    position: absolute;
+    width: 490px;
+    height: 500px;
+    /* left: 230px; */
+    /* top: 499px; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.download{
+    margin-top: 80px;
+
+    position: absolute;
+    width: 160px;
+    height: 60px;
+
+    color:white;
+    background-color: #FD6E0A;
+    border-radius: 6px;
+    border: 0;
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+}
+.contact{
+    margin-top: 80px;
+    margin-left: 180px;
+
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    border-radius: 6px ;
+    border:0;
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+}
+.new_section{
+    
+position: absolute;
+width: 900px;
+height: 600px;
+left: 230px; 
+top: 967px;
+
+background: #FFF8F3;
+border-radius: 10px;
+}
+.heading{
+    
+
+}
+.about_myself{
+    padding-top: 10px;
+    color: #757575;
+    line-height: 30px;
+}
+.inner_box{
+position: absolute;
+width: 527px;
+height: 188px;
+text-align: center;
+padding-left: 220px;
+padding-top: 150px;
+text-align: center;
+
+    
+}
+/* info box */
+.info_box{
+   
+display: flex;
+justify-content: space-around;
+position: absolute;
+/* text-align: center; */
+padding-top: 340px;
+padding-left: 0%;
+
+    
+}
+.name{
+    width: 150px;
+
+}
+.email{
+
+
+}
+.dop{
+    width: 150px;
+
+}
+.from{
+
+}
